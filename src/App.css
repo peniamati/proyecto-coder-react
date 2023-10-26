@@ -1,0 +1,23 @@
+.container > span{
+  color: white;
+  font-weight: bold;
+  margin-left: .5em;
+}
+
+h1{
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+}
+
+.nav-link{
+  color: black;
+  font-size: 1em;
+}
