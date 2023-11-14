@@ -1,3 +1,5 @@
+import Button from 'react-bootstrap/Button';
+
 export const ItemDetail = ({ item }) => {
   const containerStyle = {
     backgroundColor: 'black',
@@ -21,6 +23,9 @@ export const ItemDetail = ({ item }) => {
         <img src={item.pictureUrl} alt={item.title} style={{ maxWidth: '100%', height: 'auto' }} />
         <p style={{ fontSize: '14px' }}>{item.description}</p>
         <p style={{ fontSize: '12px' }}>PRECIO: ${item.price}</p>
+        <Button variant="primary" style={{ marginRight: '10px' }}>-</Button>
+        <Button variant="primary">Comprar</Button>
+        <Button variant="primary" style={{ marginLeft: '10px' }}>+</Button>
       </div>
     </div>
   );
