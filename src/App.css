@@ -23,8 +23,17 @@ h1{
 }
 
 .nav-link{
-  color: black;
+  color: white;
   font-size: 1em;
+}
+
+.dropdown-menu{
+  background-color: #000014 !important;
+}
+
+.dropdown-item:hover{
+  background-color: #f3e7cf !important;
+  color: #000014 !important;
 }
 
 .mt-3{
